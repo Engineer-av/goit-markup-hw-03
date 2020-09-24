@@ -221,6 +221,9 @@ img {
 .what-we-do .list {
   display: flex;
 }
+.what-we-do-list-item {
+  width: 370px;
+}
 .what-we-do-list-item:not(last-child) {
   margin-right: 30px;
 }
@@ -240,6 +243,7 @@ img {
 }
 
 .team-list-item {
+  width: 270px;
   padding-bottom: 30px;
   background-color: var(--primary-background-color);
   text-align: center;
